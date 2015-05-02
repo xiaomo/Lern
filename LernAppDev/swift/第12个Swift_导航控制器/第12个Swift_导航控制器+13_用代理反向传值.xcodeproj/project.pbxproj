@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F839A5091AF3E06100F91949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F839A5081AF3E06100F91949 /* AppDelegate.swift */; };
+		F839A50B1AF3E06200F91949 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F839A50A1AF3E06200F91949 /* RootViewController.swift */; };
+		F839A51F1AF3E06200F91949 /* _12_Swift______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F839A51E1AF3E06200F91949 /* _12_Swift______Tests.swift */; };
+		F839A5291AF3E0E900F91949 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F839A5281AF3E0E900F91949 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F839A5191AF3E06200F91949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F839A4FB1AF3E06100F91949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F839A5021AF3E06100F91949;
+			remoteInfo = "第12个Swift_导航控制器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F839A5031AF3E06100F91949 /* 第12个Swift_导航控制器+13_用代理反向传值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第12个Swift_导航控制器+13_用代理反向传值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F839A5071AF3E06100F91949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F839A5081AF3E06100F91949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F839A50A1AF3E06200F91949 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F839A5181AF3E06200F91949 /* 第12个Swift_导航控制器+13_用代理反向传值Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "第12个Swift_导航控制器+13_用代理反向传值Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F839A51D1AF3E06200F91949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F839A51E1AF3E06200F91949 /* _12_Swift______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_12_Swift______Tests.swift"; sourceTree = "<group>"; };
+		F839A5281AF3E0E900F91949 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F839A5001AF3E06100F91949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F839A5151AF3E06200F91949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F839A4FA1AF3E06100F91949 = {
+			isa = PBXGroup;
+			children = (
+				F839A5051AF3E06100F91949 /* 第12个Swift_导航控制器 */,
+				F839A51B1AF3E06200F91949 /* 第12个Swift_导航控制器Tests */,
+				F839A5041AF3E06100F91949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F839A5041AF3E06100F91949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F839A5031AF3E06100F91949 /* 第12个Swift_导航控制器+13_用代理反向传值.app */,
+				F839A5181AF3E06200F91949 /* 第12个Swift_导航控制器+13_用代理反向传值Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F839A5051AF3E06100F91949 /* 第12个Swift_导航控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				F839A5081AF3E06100F91949 /* AppDelegate.swift */,
+				F839A50A1AF3E06200F91949 /* RootViewController.swift */,
+				F839A5061AF3E06100F91949 /* Supporting Files */,
+				F839A5281AF3E0E900F91949 /* SecondViewController.swift */,
+			);
+			path = "第12个Swift_导航控制器";
+			sourceTree = "<group>";
+		};
+		F839A5061AF3E06100F91949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F839A5071AF3E06100F91949 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F839A51B1AF3E06200F91949 /* 第12个Swift_导航控制器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F839A51E1AF3E06200F91949 /* _12_Swift______Tests.swift */,
+				F839A51C1AF3E06200F91949 /* Supporting Files */,
+			);
+			path = "第12个Swift_导航控制器Tests";
+			sourceTree = "<group>";
+		};
+		F839A51C1AF3E06200F91949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F839A51D1AF3E06200F91949 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F839A5021AF3E06100F91949 /* 第12个Swift_导航控制器+13_用代理反向传值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F839A5221AF3E06200F91949 /* Build configuration list for PBXNativeTarget "第12个Swift_导航控制器+13_用代理反向传值" */;
+			buildPhases = (
+				F839A4FF1AF3E06100F91949 /* Sources */,
+				F839A5001AF3E06100F91949 /* Frameworks */,
+				F839A5011AF3E06100F91949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第12个Swift_导航控制器+13_用代理反向传值";
+			productName = "第12个Swift_导航控制器";
+			productReference = F839A5031AF3E06100F91949 /* 第12个Swift_导航控制器+13_用代理反向传值.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F839A5171AF3E06200F91949 /* 第12个Swift_导航控制器+13_用代理反向传值Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F839A5251AF3E06200F91949 /* Build configuration list for PBXNativeTarget "第12个Swift_导航控制器+13_用代理反向传值Tests" */;
+			buildPhases = (
+				F839A5141AF3E06200F91949 /* Sources */,
+				F839A5151AF3E06200F91949 /* Frameworks */,
+				F839A5161AF3E06200F91949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F839A51A1AF3E06200F91949 /* PBXTargetDependency */,
+			);
+			name = "第12个Swift_导航控制器+13_用代理反向传值Tests";
+			productName = "第12个Swift_导航控制器Tests";
+			productReference = F839A5181AF3E06200F91949 /* 第12个Swift_导航控制器+13_用代理反向传值Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F839A4FB1AF3E06100F91949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MoMing;
+				TargetAttributes = {
+					F839A5021AF3E06100F91949 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F839A5171AF3E06200F91949 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F839A5021AF3E06100F91949;
+					};
+				};
+			};
+			buildConfigurationList = F839A4FE1AF3E06100F91949 /* Build configuration list for PBXProject "第12个Swift_导航控制器+13_用代理反向传值" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F839A4FA1AF3E06100F91949;
+			productRefGroup = F839A5041AF3E06100F91949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F839A5021AF3E06100F91949 /* 第12个Swift_导航控制器+13_用代理反向传值 */,
+				F839A5171AF3E06200F91949 /* 第12个Swift_导航控制器+13_用代理反向传值Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F839A5011AF3E06100F91949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F839A5161AF3E06200F91949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F839A4FF1AF3E06100F91949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F839A5291AF3E0E900F91949 /* SecondViewController.swift in Sources */,
+				F839A50B1AF3E06200F91949 /* RootViewController.swift in Sources */,
+				F839A5091AF3E06100F91949 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F839A5141AF3E06200F91949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F839A51F1AF3E06200F91949 /* _12_Swift______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F839A51A1AF3E06200F91949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F839A5021AF3E06100F91949 /* 第12个Swift_导航控制器+13_用代理反向传值 */;
+			targetProxy = F839A5191AF3E06200F91949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F839A5201AF3E06200F91949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F839A5211AF3E06200F91949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F839A5231AF3E06200F91949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第12个Swift_导航控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "第12个Swift_导航控制器+13_用代理反向传值";
+			};
+			name = Debug;
+		};
+		F839A5241AF3E06200F91949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第12个Swift_导航控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "第12个Swift_导航控制器+13_用代理反向传值";
+			};
+			name = Release;
+		};
+		F839A5261AF3E06200F91949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "第12个Swift_导航控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "第12个Swift_导航控制器+13_用代理反向传值Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第12个Swift_导航控制器.app/第12个Swift_导航控制器";
+			};
+			name = Debug;
+		};
+		F839A5271AF3E06200F91949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "第12个Swift_导航控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "第12个Swift_导航控制器+13_用代理反向传值Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第12个Swift_导航控制器.app/第12个Swift_导航控制器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F839A4FE1AF3E06100F91949 /* Build configuration list for PBXProject "第12个Swift_导航控制器+13_用代理反向传值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F839A5201AF3E06200F91949 /* Debug */,
+				F839A5211AF3E06200F91949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F839A5221AF3E06200F91949 /* Build configuration list for PBXNativeTarget "第12个Swift_导航控制器+13_用代理反向传值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F839A5231AF3E06200F91949 /* Debug */,
+				F839A5241AF3E06200F91949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F839A5251AF3E06200F91949 /* Build configuration list for PBXNativeTarget "第12个Swift_导航控制器+13_用代理反向传值Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F839A5261AF3E06200F91949 /* Debug */,
+				F839A5271AF3E06200F91949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F839A4FB1AF3E06100F91949 /* Project object */;
+}
