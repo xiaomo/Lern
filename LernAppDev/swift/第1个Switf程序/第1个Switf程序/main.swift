@@ -21,7 +21,7 @@ println("myVar2 is \(myVar2)");
 var myVar3:Double = 3.1415926
 println("myVar3 is \(myVar3)");
 
-let myVar4 = 400;
+let myVar4 = 400; //var定义普通变量，let定义常量变量
 println("myVar4 is \(myVar4)");
 
 var myVar5=1;
